@@ -1,0 +1,14 @@
+controller:
+  replicaCount: 1
+  service:
+    annotations:
+      service.beta.kubernetes.io/azure-load-balancer-internal: "true"
+  config:
+    use-forwarded-headers: "true"
+  ingressClass: "nginx"
+
+defaultBackend:
+  replicaCount: 1
+
+rbac:
+  create: true
