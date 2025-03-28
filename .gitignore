@@ -1,0 +1,3 @@
+./Azure/modules/.terraform
+./Azure/modules/terraform.tfstate
+./Azure/modules/terraform.tfstate.backup
